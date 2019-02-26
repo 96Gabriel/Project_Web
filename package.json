@@ -1,0 +1,17 @@
+{
+  "name": "project_web-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Bernardo Lutiano et Noé Damoiseaux",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.16.4",
+    "hogan": "^1.0.2"
+  }
+}

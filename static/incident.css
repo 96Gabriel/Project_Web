@@ -1,0 +1,66 @@
+body {
+	background-color: LightGrey;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.box {
+	background-color: LightSlateGray;
+	text-align: left;
+	padding: 15px;
+	border-color: DimGray;
+	border-width: 5px;
+	border-style: solid;
+	list-style: none;
+}
+.lis {
+	display: inline-block;
+}
+.lis2 {
+	display: inline-block;
+}
+.lis3 {
+	display: inline-block;
+	margin-left: 42%;
+}
+.lis4 {
+	display: inline-block;
+	margin-left: 1%;
+	font-size: 1.25em;
+	font-style: italic;
+}
+.lisi {
+	width: 50px;
+}
+input[type=text] {
+  	padding: 12px 20px;
+  	margin: 6px 0;
+	box-sizing: border-box;
+	border: none;
+  	background-color: DimGray;
+	color: white;
+}
+h1 {
+	color: black;
+	text-transform: uppercase;
+	font-size: 2.5em;
+}
+h2 {
+	margin-left: 5%;
+	font-size: 2em;
+}
+p {
+	margin-left: 5%;
+	font-weight: 600;
+	font-size: 1.25em;
+}
+textarea {
+	background-color: Linen;
+	width: 80%;
+}
+.button {
+	margin-left: 5%;
+	font-size: 1.25em;
+	font-weight: 500;
+	background-color: LightSlateGray;
+}	
