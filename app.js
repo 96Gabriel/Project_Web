@@ -7,7 +7,12 @@ app.engine('html', consolidate.hogan);
 app.set("views", "static");
 
 app.get("/", function(req, res){
-    res.render("main.html");
+    var name = req.query.username;
+    if(name != undefined){
+        res.render("main.html", {username: name});
+    }else{
+        res.render("main.html");
+    }
 });
 
 app.get("/incident", function(req, res){
