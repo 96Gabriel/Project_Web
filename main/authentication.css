@@ -67,3 +67,7 @@ p {
 	font-weight: 500;
 	background-color: LightSlateGray;
 }	
+
+.errMsg{
+	color: red;
+}
