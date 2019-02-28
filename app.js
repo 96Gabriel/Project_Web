@@ -8,7 +8,8 @@ app.set("views", "static");
 
 app.get("/", function(req, res){
     var name = req.query.username;
-    if(name != undefined){
+    var password = req.query.password;
+    if(name != undefined && password == "123pass"){
         res.render("main.html", {username: name});
     }else{
         res.render("main.html");
