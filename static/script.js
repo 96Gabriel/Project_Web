@@ -1,8 +1,7 @@
 var d = new Date();
-var day = Date.getDate();
-var month = Date.getMonth() + 1;
-var year = Date.getFullYear();
+var day = d.getDate();
+var month = d.getMonth() + 1;
+var year = d.getFullYear();
 
-var date = day + ", " + month + " " + year;
-
-document.getElementById("date").innerText;
+var date = day + "/" + month + "/" + year;
+$("#date").text(date);
