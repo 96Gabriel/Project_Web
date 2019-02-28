@@ -5,4 +5,4 @@ var year = Date.getFullYear();
 
 var date = year + "/" + month + "/" + day;
 
-$("section #date").val(date);
+$("#date").text(date);
