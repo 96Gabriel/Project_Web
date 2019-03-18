@@ -33,42 +33,14 @@
                 <th class="th3">Reported by</th>
                 <th >Date</th>
             </thead>
-            <tr>
-                <td class="th1">This is a exemple of report. </td>
-                <td class="th2">Place de l'universite, 5</td>
-                <td class="th3">Jean-didier Legat</td>
-                <td class="th4">16/02/19</td>
-            </tr>
-            <tr>
-                <td class="th1">Poubelle renversee au millieu de la route. Parmi les dechets par terre il y a 3 peaux de bannanes bien glissante faite attention.</td>
-                <td class="th2">Rue des blancs chevaux, 15</td>
-                <td class="th3">Olivier Bonaventure</td>
-                <td class="th4">14/02/19</td>
-            </tr>
+            {{#incidents}}
             <tr>
                 <td class="th1">{{description}}</td>
                 <td class="th2">{{address}}</td>
-                <td class="th3">{{username}}</td>
-                <td class="th4 date"></td>
+                <td class="th3">{{author}}</td>
+                <td class="th4">{{date}}</td>
             </tr>
-            <tr>
-                <td class="th1"></td>
-                <td class="th2"></td>
-                <td class="th3"></td>
-                <td class="th4"></td>
-            </tr>
-            <tr>
-                <td class="th1"></td>
-                <td class="th2"></td>
-                <td class="th3"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="th1"></td>
-                <td class="th2"></td>
-                <td class="th3"></td>
-                <td class="th4"></td>
-            </tr>
+            {{/incidents}}
         </table>
         <script type="text/javascript" src="/script.js"></script>
     </body>
